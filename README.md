@@ -1,68 +1,73 @@
-📐 Polynomial Regression Approximation of sin(x)
-This project demonstrates how to approximate the sine function (sin(x)) using Polynomial Regression in Python. It fits a polynomial curve to given data points of sin(x) between 0 and 180 degrees, and allows the user to input custom angles to predict their sine values.
+📐 Polynomial Sine Approximation using Machine Learning
+Approximate the sine function (sin(x)) using Polynomial Regression with Python and Scikit-learn. This project visualizes curve fitting for sine waves and allows users to input angles in degrees to see how well the model predicts sine values.
 
-✨ Features
-Trains a Polynomial Regression Model (Degree = 5) on sample sine values.
+🚀 Project Overview
+This project demonstrates:
 
-Generates a smooth curve approximating sin(x) from 0° to 180°.
+Training a Polynomial Regression Model (degree = 5) to approximate sin(x).
 
-Accepts user inputs (angle in degrees) and predicts sine values using the trained model.
+Visualizing the polynomial curve fitting to sample sine data points between 0° and 180°.
 
-Compares the predicted vs actual sine values.
+Allowing user interaction via console inputs to predict sine values using the trained model.
 
-🖼 Sample Output Graph
+Comparing predicted sine values with actual sine values dynamically.
 
-
-🛠 Requirements
+📊 Sample Output Graph
+<img src="Figure_1.png" alt="Polynomial Regression Approximation of sin(x)" width="500"/>
+🧰 Tech Stack
 Python 3.x
 
-numpy
+NumPy
 
-matplotlib
+Matplotlib
 
-scikit-learn
+Scikit-learn (PolynomialFeatures & LinearRegression)
 
-Install via pip:
+✨ Features
+✅ Polynomial Regression for curve fitting
+✅ Visualization of approximation accuracy
+✅ User inputs angle (0° to 180°) & gets predicted sine value
+✅ Comparison between predicted and actual sine values
+
+🗂 Folder Structure
+bash
+Copy
+Edit
+Polynomial-Sine-Approximation/
+│
+├── Figure_1.png                    # Sample Output Graph
+├── sin_polynomial_regression.py    # Main Python Script
+└── README.md                       # Project Documentation
+🖥️ How to Run
+Clone this repository.
+
+Install dependencies:
+
 bash
 Copy
 Edit
 pip install numpy matplotlib scikit-learn
-🚀 Run Instructions
-Clone this repository.
-
-Ensure the image Figure_1.png is in the repository folder.
-
 Run the Python script:
 
 bash
 Copy
 Edit
 python sin_polynomial_regression.py
-The graph will display, and the console will prompt for 5 user inputs (in degrees).
+The program will display the fitted graph and prompt you to enter 5 custom angles (in degrees) to see the predicted sine values.
 
-📋 Example User Interaction
-java
+🎯 Example Use Case
+css
 Copy
 Edit
-Attempt 1/5 - Enter a value of x (in degrees, between 0 and 180): 45
-Predicted sin(45°) ≈ 0.70711
-Actual sin(45°) = 0.70711
+Attempt 1/5 - Enter a value of x (in degrees, between 0 and 180): 60
+Predicted sin(60°) ≈ 0.86603
+Actual sin(60°) = 0.86603
+💡 Learning Objectives
+Polynomial Regression understanding
 
-Attempt 2/5 - Enter a value of x (in degrees, between 0 and 180): 90
-Predicted sin(90°) ≈ 1.00000
-Actual sin(90°) = 1.00000
-🧑‍💻 Author
-Poornima Tiwari (BCA-NEW-33)
+Feature transformation using Scikit-learn
 
-🌟 Tags:
-#Python #MachineLearning #PolynomialRegression #sinxApproximation #ScikitLearn #MLProject
+Curve fitting & data visualization with matplotlib
 
-📁 Recommended GitHub Repository Structure:
-bash
-Copy
-Edit
-Polynomial-SinX-Approximation/
-│
-├── Figure_1.png              # Output Graph Image
-├── sin_polynomial_regression.py  # Main Python Script
-└── README.md                 # Project Documentation
+Handling real-time user inputs for ML model inference
+
