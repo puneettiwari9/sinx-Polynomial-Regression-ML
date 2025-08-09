@@ -28,7 +28,7 @@ Matplotlib
 
 Scikit-learn (PolynomialFeatures & LinearRegression)
 
-✨### **Key Features**
+✨ **Key Features**
 
 Polynomial Regression for curve fitting.
 
