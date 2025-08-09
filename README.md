@@ -2,7 +2,7 @@
 This project demonstrates how to approximate the sine function (sin(x)) using Polynomial Regression with Python and Scikit-learn. It visualizes the curve fitting and enables interactive user inputs to predict sine values in real-time.
 
 
-🚀 ## **Project Overview**
+🚀  **Project Overview**
 This project:
 
 Trains a Polynomial Regression Model (degree = 5) to approximate the sin(x) curve.
