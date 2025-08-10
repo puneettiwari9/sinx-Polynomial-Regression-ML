@@ -1,4 +1,4 @@
-# **Polynomial Sine Approximation using Machine Learning**
+**Polynomial Sine Approximation using Machine Learning**
 This project demonstrates how to approximate the sine function (sin(x)) using Polynomial Regression with Python and Scikit-learn. It visualizes the curve fitting and enables interactive user inputs to predict sine values in real-time.
 
 
